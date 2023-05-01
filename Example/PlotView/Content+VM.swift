@@ -157,32 +157,34 @@ extension Content {
                         },
                         PlotView.ViewModel.Impl {
 
-                            $0.records = [.init(item: .function(.init(
+                            $0.records = [.init(
 
-                                points: [
+                                item: .function(.init(
 
-                                    .init(xCoordinate: 0, yCoordinate: 2),
-                                    .init(xCoordinate: 1, yCoordinate: 4),
-                                    .init(xCoordinate: 2, yCoordinate: 5),
-                                    .init(xCoordinate: 3, yCoordinate: 4),
-                                    .init(xCoordinate: 4, yCoordinate: 8),
-                                    .init(xCoordinate: 5, yCoordinate: 10),
-                                    .init(xCoordinate: 6, yCoordinate: 5),
-                                    .init(xCoordinate: 7, yCoordinate: 14),
-                                    .init(xCoordinate: 8, yCoordinate: 22),
-                                    .init(xCoordinate: 9, yCoordinate: 36),
-                                    .init(xCoordinate: 10, yCoordinate: 17),
-                                    .init(xCoordinate: 11, yCoordinate: 12),
-                                    .init(xCoordinate: 12, yCoordinate: 25),
-                                    .init(xCoordinate: 13, yCoordinate: 26),
-                                    .init(xCoordinate: 14, yCoordinate: 28),
-                                    .init(xCoordinate: 15, yCoordinate: 15),
-                                    .init(xCoordinate: 16, yCoordinate: 18),
-                                    .init(xCoordinate: 17, yCoordinate: 19),
-                                    .init(xCoordinate: 18, yCoordinate: 21),
-                                    .init(xCoordinate: 19, yCoordinate: 28),
-                                    .init(xCoordinate: 20, yCoordinate: 36),
-                                ],
+                                    points: [
+
+                                        .init(xCoordinate: 0, yCoordinate: 2),
+                                        .init(xCoordinate: 1, yCoordinate: 4),
+                                        .init(xCoordinate: 2, yCoordinate: 5),
+                                        .init(xCoordinate: 3, yCoordinate: 4),
+                                        .init(xCoordinate: 4, yCoordinate: 8),
+                                        .init(xCoordinate: 5, yCoordinate: 10),
+                                        .init(xCoordinate: 6, yCoordinate: 5),
+                                        .init(xCoordinate: 7, yCoordinate: 14),
+                                        .init(xCoordinate: 8, yCoordinate: 22),
+                                        .init(xCoordinate: 9, yCoordinate: 36),
+                                        .init(xCoordinate: 10, yCoordinate: 17),
+                                        .init(xCoordinate: 11, yCoordinate: 12),
+                                        .init(xCoordinate: 12, yCoordinate: 25),
+                                        .init(xCoordinate: 13, yCoordinate: 26),
+                                        .init(xCoordinate: 14, yCoordinate: 28),
+                                        .init(xCoordinate: 15, yCoordinate: 15),
+                                        .init(xCoordinate: 16, yCoordinate: 18),
+                                        .init(xCoordinate: 17, yCoordinate: 19),
+                                        .init(xCoordinate: 18, yCoordinate: 21),
+                                        .init(xCoordinate: 19, yCoordinate: 28),
+                                        .init(xCoordinate: 20, yCoordinate: 36),
+                                    ],
                                 color: nil)))]
                         }
                     ]),
