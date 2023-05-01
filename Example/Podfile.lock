@@ -1,0 +1,16 @@
+PODS:
+  - PlotView (0.1.0)
+
+DEPENDENCIES:
+  - PlotView (from `../`)
+
+EXTERNAL SOURCES:
+  PlotView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PlotView: f8d9b440ed41f05cff81f8e8abb1c77de5db9413
+
+PODFILE CHECKSUM: 9df9f02de1d0abc19fdad81783dad3ba2aabd49b
+
+COCOAPODS: 1.10.2
