@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/PlotView.svg?style=flat)](https://cocoapods.org/pods/PlotView)
 [![Platform](https://img.shields.io/cocoapods/p/PlotView.svg?style=flat)](https://cocoapods.org/pods/PlotView)
 
+A simple view for displaying information as a two-dimensional graph. Implemented using SwiftUI. Suitable for displaying small simple graphs inside table view cell, also allows displaying detailed information including grid lines, scale labels, and changing scale for each axis separately.
+
+![graph](./PlotView/Assets/graph.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -52,6 +56,8 @@ PlotView.ViewModel.Impl {
     $0.xConfig.scaleConfig = .fixed(value: 0.5)
 },
 ```
+
+![example](./PlotView/Assets/example.gif)
 
 ## Installation
 
